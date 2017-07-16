@@ -26,5 +26,5 @@ x$press("control")
 x$press("backspace")
 #chainable action
 Sys.sleep(6)
-y$single_click()$single_click(100,100)$right_click(200,200)$double_click()$paste("chain")$press("f1")
+y$single_click()$single_click(100,100)$right_click(200,200)$sleep(5)$double_click()$paste("chain")$press("f1")
 }

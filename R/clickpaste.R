@@ -110,6 +110,11 @@ click_paste <- R6Class("click_paste",
                                   stop("Unknown button!")
                                   )
                            invisible(self)
+                         },
+                         sleep = function(x){
+                           stopifnot(is.numeric(x))
+                           Sys.sleep(x)
+                           invisible(self)
                          }
                        )
 )

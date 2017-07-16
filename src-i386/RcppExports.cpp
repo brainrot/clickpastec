@@ -7,7 +7,7 @@ using namespace Rcpp;
 
 // DoubleClick
 void DoubleClick(int x, int y);
-RcppExport SEXP clickpaste_DoubleClick(SEXP xSEXP, SEXP ySEXP) {
+RcppExport SEXP _clickpaste_DoubleClick(SEXP xSEXP, SEXP ySEXP) {
 BEGIN_RCPP
     Rcpp::RNGScope rcpp_rngScope_gen;
     Rcpp::traits::input_parameter< int >::type x(xSEXP);
@@ -18,7 +18,7 @@ END_RCPP
 }
 // get_point_x
 double get_point_x();
-RcppExport SEXP clickpaste_get_point_x() {
+RcppExport SEXP _clickpaste_get_point_x() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -28,7 +28,7 @@ END_RCPP
 }
 // get_point_y
 double get_point_y();
-RcppExport SEXP clickpaste_get_point_y() {
+RcppExport SEXP _clickpaste_get_point_y() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -38,7 +38,7 @@ END_RCPP
 }
 // shift
 int shift();
-RcppExport SEXP clickpaste_shift() {
+RcppExport SEXP _clickpaste_shift() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -48,7 +48,7 @@ END_RCPP
 }
 // a_1
 int a_1();
-RcppExport SEXP clickpaste_a_1() {
+RcppExport SEXP _clickpaste_a_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -58,7 +58,7 @@ END_RCPP
 }
 // b_1
 int b_1();
-RcppExport SEXP clickpaste_b_1() {
+RcppExport SEXP _clickpaste_b_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -68,7 +68,7 @@ END_RCPP
 }
 // c_1
 int c_1();
-RcppExport SEXP clickpaste_c_1() {
+RcppExport SEXP _clickpaste_c_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -78,7 +78,7 @@ END_RCPP
 }
 // d_1
 int d_1();
-RcppExport SEXP clickpaste_d_1() {
+RcppExport SEXP _clickpaste_d_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -88,7 +88,7 @@ END_RCPP
 }
 // e_1
 int e_1();
-RcppExport SEXP clickpaste_e_1() {
+RcppExport SEXP _clickpaste_e_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -98,7 +98,7 @@ END_RCPP
 }
 // f_1
 int f_1();
-RcppExport SEXP clickpaste_f_1() {
+RcppExport SEXP _clickpaste_f_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -108,7 +108,7 @@ END_RCPP
 }
 // g_1
 int g_1();
-RcppExport SEXP clickpaste_g_1() {
+RcppExport SEXP _clickpaste_g_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -118,7 +118,7 @@ END_RCPP
 }
 // h_1
 int h_1();
-RcppExport SEXP clickpaste_h_1() {
+RcppExport SEXP _clickpaste_h_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -128,7 +128,7 @@ END_RCPP
 }
 // i_1
 int i_1();
-RcppExport SEXP clickpaste_i_1() {
+RcppExport SEXP _clickpaste_i_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -138,7 +138,7 @@ END_RCPP
 }
 // j_1
 int j_1();
-RcppExport SEXP clickpaste_j_1() {
+RcppExport SEXP _clickpaste_j_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -148,7 +148,7 @@ END_RCPP
 }
 // k_1
 int k_1();
-RcppExport SEXP clickpaste_k_1() {
+RcppExport SEXP _clickpaste_k_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -158,7 +158,7 @@ END_RCPP
 }
 // l_1
 int l_1();
-RcppExport SEXP clickpaste_l_1() {
+RcppExport SEXP _clickpaste_l_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -168,7 +168,7 @@ END_RCPP
 }
 // m_1
 int m_1();
-RcppExport SEXP clickpaste_m_1() {
+RcppExport SEXP _clickpaste_m_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -178,7 +178,7 @@ END_RCPP
 }
 // n_1
 int n_1();
-RcppExport SEXP clickpaste_n_1() {
+RcppExport SEXP _clickpaste_n_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -188,7 +188,7 @@ END_RCPP
 }
 // o_1
 int o_1();
-RcppExport SEXP clickpaste_o_1() {
+RcppExport SEXP _clickpaste_o_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -198,7 +198,7 @@ END_RCPP
 }
 // p_1
 int p_1();
-RcppExport SEXP clickpaste_p_1() {
+RcppExport SEXP _clickpaste_p_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -208,7 +208,7 @@ END_RCPP
 }
 // q_1
 int q_1();
-RcppExport SEXP clickpaste_q_1() {
+RcppExport SEXP _clickpaste_q_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -218,7 +218,7 @@ END_RCPP
 }
 // r_1
 int r_1();
-RcppExport SEXP clickpaste_r_1() {
+RcppExport SEXP _clickpaste_r_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -228,7 +228,7 @@ END_RCPP
 }
 // s_1
 int s_1();
-RcppExport SEXP clickpaste_s_1() {
+RcppExport SEXP _clickpaste_s_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -238,7 +238,7 @@ END_RCPP
 }
 // t_1
 int t_1();
-RcppExport SEXP clickpaste_t_1() {
+RcppExport SEXP _clickpaste_t_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -248,7 +248,7 @@ END_RCPP
 }
 // u_1
 int u_1();
-RcppExport SEXP clickpaste_u_1() {
+RcppExport SEXP _clickpaste_u_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -258,7 +258,7 @@ END_RCPP
 }
 // v_1
 int v_1();
-RcppExport SEXP clickpaste_v_1() {
+RcppExport SEXP _clickpaste_v_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -268,7 +268,7 @@ END_RCPP
 }
 // w_1
 int w_1();
-RcppExport SEXP clickpaste_w_1() {
+RcppExport SEXP _clickpaste_w_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -278,7 +278,7 @@ END_RCPP
 }
 // x_1
 int x_1();
-RcppExport SEXP clickpaste_x_1() {
+RcppExport SEXP _clickpaste_x_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -288,7 +288,7 @@ END_RCPP
 }
 // y_1
 int y_1();
-RcppExport SEXP clickpaste_y_1() {
+RcppExport SEXP _clickpaste_y_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -298,7 +298,7 @@ END_RCPP
 }
 // z_1
 int z_1();
-RcppExport SEXP clickpaste_z_1() {
+RcppExport SEXP _clickpaste_z_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -308,7 +308,7 @@ END_RCPP
 }
 // zero_1
 int zero_1();
-RcppExport SEXP clickpaste_zero_1() {
+RcppExport SEXP _clickpaste_zero_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -318,7 +318,7 @@ END_RCPP
 }
 // one_1
 int one_1();
-RcppExport SEXP clickpaste_one_1() {
+RcppExport SEXP _clickpaste_one_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -328,7 +328,7 @@ END_RCPP
 }
 // two_1
 int two_1();
-RcppExport SEXP clickpaste_two_1() {
+RcppExport SEXP _clickpaste_two_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -338,7 +338,7 @@ END_RCPP
 }
 // three_1
 int three_1();
-RcppExport SEXP clickpaste_three_1() {
+RcppExport SEXP _clickpaste_three_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -348,7 +348,7 @@ END_RCPP
 }
 // four_1
 int four_1();
-RcppExport SEXP clickpaste_four_1() {
+RcppExport SEXP _clickpaste_four_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -358,7 +358,7 @@ END_RCPP
 }
 // five_1
 int five_1();
-RcppExport SEXP clickpaste_five_1() {
+RcppExport SEXP _clickpaste_five_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -368,7 +368,7 @@ END_RCPP
 }
 // six_1
 int six_1();
-RcppExport SEXP clickpaste_six_1() {
+RcppExport SEXP _clickpaste_six_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -378,7 +378,7 @@ END_RCPP
 }
 // seven_1
 int seven_1();
-RcppExport SEXP clickpaste_seven_1() {
+RcppExport SEXP _clickpaste_seven_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -388,7 +388,7 @@ END_RCPP
 }
 // eight_1
 int eight_1();
-RcppExport SEXP clickpaste_eight_1() {
+RcppExport SEXP _clickpaste_eight_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -398,7 +398,7 @@ END_RCPP
 }
 // nine_1
 int nine_1();
-RcppExport SEXP clickpaste_nine_1() {
+RcppExport SEXP _clickpaste_nine_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -408,7 +408,7 @@ END_RCPP
 }
 // funtion_1
 int funtion_1();
-RcppExport SEXP clickpaste_funtion_1() {
+RcppExport SEXP _clickpaste_funtion_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -418,7 +418,7 @@ END_RCPP
 }
 // funtion_2
 int funtion_2();
-RcppExport SEXP clickpaste_funtion_2() {
+RcppExport SEXP _clickpaste_funtion_2() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -428,7 +428,7 @@ END_RCPP
 }
 // funtion_3
 int funtion_3();
-RcppExport SEXP clickpaste_funtion_3() {
+RcppExport SEXP _clickpaste_funtion_3() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -438,7 +438,7 @@ END_RCPP
 }
 // funtion_4
 int funtion_4();
-RcppExport SEXP clickpaste_funtion_4() {
+RcppExport SEXP _clickpaste_funtion_4() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -448,7 +448,7 @@ END_RCPP
 }
 // funtion_5
 int funtion_5();
-RcppExport SEXP clickpaste_funtion_5() {
+RcppExport SEXP _clickpaste_funtion_5() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -458,7 +458,7 @@ END_RCPP
 }
 // funtion_6
 int funtion_6();
-RcppExport SEXP clickpaste_funtion_6() {
+RcppExport SEXP _clickpaste_funtion_6() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -468,7 +468,7 @@ END_RCPP
 }
 // funtion_7
 int funtion_7();
-RcppExport SEXP clickpaste_funtion_7() {
+RcppExport SEXP _clickpaste_funtion_7() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -478,7 +478,7 @@ END_RCPP
 }
 // funtion_8
 int funtion_8();
-RcppExport SEXP clickpaste_funtion_8() {
+RcppExport SEXP _clickpaste_funtion_8() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -488,7 +488,7 @@ END_RCPP
 }
 // funtion_9
 int funtion_9();
-RcppExport SEXP clickpaste_funtion_9() {
+RcppExport SEXP _clickpaste_funtion_9() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -498,7 +498,7 @@ END_RCPP
 }
 // funtion_10
 int funtion_10();
-RcppExport SEXP clickpaste_funtion_10() {
+RcppExport SEXP _clickpaste_funtion_10() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -508,7 +508,7 @@ END_RCPP
 }
 // funtion_11
 int funtion_11();
-RcppExport SEXP clickpaste_funtion_11() {
+RcppExport SEXP _clickpaste_funtion_11() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -518,7 +518,7 @@ END_RCPP
 }
 // funtion_12
 int funtion_12();
-RcppExport SEXP clickpaste_funtion_12() {
+RcppExport SEXP _clickpaste_funtion_12() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -528,7 +528,7 @@ END_RCPP
 }
 // enter_1
 int enter_1();
-RcppExport SEXP clickpaste_enter_1() {
+RcppExport SEXP _clickpaste_enter_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -538,7 +538,7 @@ END_RCPP
 }
 // backspace_1
 int backspace_1();
-RcppExport SEXP clickpaste_backspace_1() {
+RcppExport SEXP _clickpaste_backspace_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -548,7 +548,7 @@ END_RCPP
 }
 // delete_1
 int delete_1();
-RcppExport SEXP clickpaste_delete_1() {
+RcppExport SEXP _clickpaste_delete_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -558,7 +558,7 @@ END_RCPP
 }
 // control_a
 int control_a();
-RcppExport SEXP clickpaste_control_a() {
+RcppExport SEXP _clickpaste_control_a() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -568,7 +568,7 @@ END_RCPP
 }
 // alter_1
 int alter_1();
-RcppExport SEXP clickpaste_alter_1() {
+RcppExport SEXP _clickpaste_alter_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -578,7 +578,7 @@ END_RCPP
 }
 // pageup_1
 int pageup_1();
-RcppExport SEXP clickpaste_pageup_1() {
+RcppExport SEXP _clickpaste_pageup_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -588,7 +588,7 @@ END_RCPP
 }
 // pagedown_1
 int pagedown_1();
-RcppExport SEXP clickpaste_pagedown_1() {
+RcppExport SEXP _clickpaste_pagedown_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -598,7 +598,7 @@ END_RCPP
 }
 // escape_1
 int escape_1();
-RcppExport SEXP clickpaste_escape_1() {
+RcppExport SEXP _clickpaste_escape_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -608,7 +608,7 @@ END_RCPP
 }
 // paste_1
 int paste_1();
-RcppExport SEXP clickpaste_paste_1() {
+RcppExport SEXP _clickpaste_paste_1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -618,7 +618,7 @@ END_RCPP
 }
 // RightClick
 void RightClick(int x, int y);
-RcppExport SEXP clickpaste_RightClick(SEXP xSEXP, SEXP ySEXP) {
+RcppExport SEXP _clickpaste_RightClick(SEXP xSEXP, SEXP ySEXP) {
 BEGIN_RCPP
     Rcpp::RNGScope rcpp_rngScope_gen;
     Rcpp::traits::input_parameter< int >::type x(xSEXP);
@@ -629,7 +629,7 @@ END_RCPP
 }
 // SingleClick
 void SingleClick(int x, int y);
-RcppExport SEXP clickpaste_SingleClick(SEXP xSEXP, SEXP ySEXP) {
+RcppExport SEXP _clickpaste_SingleClick(SEXP xSEXP, SEXP ySEXP) {
 BEGIN_RCPP
     Rcpp::RNGScope rcpp_rngScope_gen;
     Rcpp::traits::input_parameter< int >::type x(xSEXP);
@@ -640,69 +640,69 @@ END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"clickpaste_DoubleClick", (DL_FUNC) &clickpaste_DoubleClick, 2},
-    {"clickpaste_get_point_x", (DL_FUNC) &clickpaste_get_point_x, 0},
-    {"clickpaste_get_point_y", (DL_FUNC) &clickpaste_get_point_y, 0},
-    {"clickpaste_shift", (DL_FUNC) &clickpaste_shift, 0},
-    {"clickpaste_a_1", (DL_FUNC) &clickpaste_a_1, 0},
-    {"clickpaste_b_1", (DL_FUNC) &clickpaste_b_1, 0},
-    {"clickpaste_c_1", (DL_FUNC) &clickpaste_c_1, 0},
-    {"clickpaste_d_1", (DL_FUNC) &clickpaste_d_1, 0},
-    {"clickpaste_e_1", (DL_FUNC) &clickpaste_e_1, 0},
-    {"clickpaste_f_1", (DL_FUNC) &clickpaste_f_1, 0},
-    {"clickpaste_g_1", (DL_FUNC) &clickpaste_g_1, 0},
-    {"clickpaste_h_1", (DL_FUNC) &clickpaste_h_1, 0},
-    {"clickpaste_i_1", (DL_FUNC) &clickpaste_i_1, 0},
-    {"clickpaste_j_1", (DL_FUNC) &clickpaste_j_1, 0},
-    {"clickpaste_k_1", (DL_FUNC) &clickpaste_k_1, 0},
-    {"clickpaste_l_1", (DL_FUNC) &clickpaste_l_1, 0},
-    {"clickpaste_m_1", (DL_FUNC) &clickpaste_m_1, 0},
-    {"clickpaste_n_1", (DL_FUNC) &clickpaste_n_1, 0},
-    {"clickpaste_o_1", (DL_FUNC) &clickpaste_o_1, 0},
-    {"clickpaste_p_1", (DL_FUNC) &clickpaste_p_1, 0},
-    {"clickpaste_q_1", (DL_FUNC) &clickpaste_q_1, 0},
-    {"clickpaste_r_1", (DL_FUNC) &clickpaste_r_1, 0},
-    {"clickpaste_s_1", (DL_FUNC) &clickpaste_s_1, 0},
-    {"clickpaste_t_1", (DL_FUNC) &clickpaste_t_1, 0},
-    {"clickpaste_u_1", (DL_FUNC) &clickpaste_u_1, 0},
-    {"clickpaste_v_1", (DL_FUNC) &clickpaste_v_1, 0},
-    {"clickpaste_w_1", (DL_FUNC) &clickpaste_w_1, 0},
-    {"clickpaste_x_1", (DL_FUNC) &clickpaste_x_1, 0},
-    {"clickpaste_y_1", (DL_FUNC) &clickpaste_y_1, 0},
-    {"clickpaste_z_1", (DL_FUNC) &clickpaste_z_1, 0},
-    {"clickpaste_zero_1", (DL_FUNC) &clickpaste_zero_1, 0},
-    {"clickpaste_one_1", (DL_FUNC) &clickpaste_one_1, 0},
-    {"clickpaste_two_1", (DL_FUNC) &clickpaste_two_1, 0},
-    {"clickpaste_three_1", (DL_FUNC) &clickpaste_three_1, 0},
-    {"clickpaste_four_1", (DL_FUNC) &clickpaste_four_1, 0},
-    {"clickpaste_five_1", (DL_FUNC) &clickpaste_five_1, 0},
-    {"clickpaste_six_1", (DL_FUNC) &clickpaste_six_1, 0},
-    {"clickpaste_seven_1", (DL_FUNC) &clickpaste_seven_1, 0},
-    {"clickpaste_eight_1", (DL_FUNC) &clickpaste_eight_1, 0},
-    {"clickpaste_nine_1", (DL_FUNC) &clickpaste_nine_1, 0},
-    {"clickpaste_funtion_1", (DL_FUNC) &clickpaste_funtion_1, 0},
-    {"clickpaste_funtion_2", (DL_FUNC) &clickpaste_funtion_2, 0},
-    {"clickpaste_funtion_3", (DL_FUNC) &clickpaste_funtion_3, 0},
-    {"clickpaste_funtion_4", (DL_FUNC) &clickpaste_funtion_4, 0},
-    {"clickpaste_funtion_5", (DL_FUNC) &clickpaste_funtion_5, 0},
-    {"clickpaste_funtion_6", (DL_FUNC) &clickpaste_funtion_6, 0},
-    {"clickpaste_funtion_7", (DL_FUNC) &clickpaste_funtion_7, 0},
-    {"clickpaste_funtion_8", (DL_FUNC) &clickpaste_funtion_8, 0},
-    {"clickpaste_funtion_9", (DL_FUNC) &clickpaste_funtion_9, 0},
-    {"clickpaste_funtion_10", (DL_FUNC) &clickpaste_funtion_10, 0},
-    {"clickpaste_funtion_11", (DL_FUNC) &clickpaste_funtion_11, 0},
-    {"clickpaste_funtion_12", (DL_FUNC) &clickpaste_funtion_12, 0},
-    {"clickpaste_enter_1", (DL_FUNC) &clickpaste_enter_1, 0},
-    {"clickpaste_backspace_1", (DL_FUNC) &clickpaste_backspace_1, 0},
-    {"clickpaste_delete_1", (DL_FUNC) &clickpaste_delete_1, 0},
-    {"clickpaste_control_a", (DL_FUNC) &clickpaste_control_a, 0},
-    {"clickpaste_alter_1", (DL_FUNC) &clickpaste_alter_1, 0},
-    {"clickpaste_pageup_1", (DL_FUNC) &clickpaste_pageup_1, 0},
-    {"clickpaste_pagedown_1", (DL_FUNC) &clickpaste_pagedown_1, 0},
-    {"clickpaste_escape_1", (DL_FUNC) &clickpaste_escape_1, 0},
-    {"clickpaste_paste_1", (DL_FUNC) &clickpaste_paste_1, 0},
-    {"clickpaste_RightClick", (DL_FUNC) &clickpaste_RightClick, 2},
-    {"clickpaste_SingleClick", (DL_FUNC) &clickpaste_SingleClick, 2},
+    {"_clickpaste_DoubleClick", (DL_FUNC) &_clickpaste_DoubleClick, 2},
+    {"_clickpaste_get_point_x", (DL_FUNC) &_clickpaste_get_point_x, 0},
+    {"_clickpaste_get_point_y", (DL_FUNC) &_clickpaste_get_point_y, 0},
+    {"_clickpaste_shift", (DL_FUNC) &_clickpaste_shift, 0},
+    {"_clickpaste_a_1", (DL_FUNC) &_clickpaste_a_1, 0},
+    {"_clickpaste_b_1", (DL_FUNC) &_clickpaste_b_1, 0},
+    {"_clickpaste_c_1", (DL_FUNC) &_clickpaste_c_1, 0},
+    {"_clickpaste_d_1", (DL_FUNC) &_clickpaste_d_1, 0},
+    {"_clickpaste_e_1", (DL_FUNC) &_clickpaste_e_1, 0},
+    {"_clickpaste_f_1", (DL_FUNC) &_clickpaste_f_1, 0},
+    {"_clickpaste_g_1", (DL_FUNC) &_clickpaste_g_1, 0},
+    {"_clickpaste_h_1", (DL_FUNC) &_clickpaste_h_1, 0},
+    {"_clickpaste_i_1", (DL_FUNC) &_clickpaste_i_1, 0},
+    {"_clickpaste_j_1", (DL_FUNC) &_clickpaste_j_1, 0},
+    {"_clickpaste_k_1", (DL_FUNC) &_clickpaste_k_1, 0},
+    {"_clickpaste_l_1", (DL_FUNC) &_clickpaste_l_1, 0},
+    {"_clickpaste_m_1", (DL_FUNC) &_clickpaste_m_1, 0},
+    {"_clickpaste_n_1", (DL_FUNC) &_clickpaste_n_1, 0},
+    {"_clickpaste_o_1", (DL_FUNC) &_clickpaste_o_1, 0},
+    {"_clickpaste_p_1", (DL_FUNC) &_clickpaste_p_1, 0},
+    {"_clickpaste_q_1", (DL_FUNC) &_clickpaste_q_1, 0},
+    {"_clickpaste_r_1", (DL_FUNC) &_clickpaste_r_1, 0},
+    {"_clickpaste_s_1", (DL_FUNC) &_clickpaste_s_1, 0},
+    {"_clickpaste_t_1", (DL_FUNC) &_clickpaste_t_1, 0},
+    {"_clickpaste_u_1", (DL_FUNC) &_clickpaste_u_1, 0},
+    {"_clickpaste_v_1", (DL_FUNC) &_clickpaste_v_1, 0},
+    {"_clickpaste_w_1", (DL_FUNC) &_clickpaste_w_1, 0},
+    {"_clickpaste_x_1", (DL_FUNC) &_clickpaste_x_1, 0},
+    {"_clickpaste_y_1", (DL_FUNC) &_clickpaste_y_1, 0},
+    {"_clickpaste_z_1", (DL_FUNC) &_clickpaste_z_1, 0},
+    {"_clickpaste_zero_1", (DL_FUNC) &_clickpaste_zero_1, 0},
+    {"_clickpaste_one_1", (DL_FUNC) &_clickpaste_one_1, 0},
+    {"_clickpaste_two_1", (DL_FUNC) &_clickpaste_two_1, 0},
+    {"_clickpaste_three_1", (DL_FUNC) &_clickpaste_three_1, 0},
+    {"_clickpaste_four_1", (DL_FUNC) &_clickpaste_four_1, 0},
+    {"_clickpaste_five_1", (DL_FUNC) &_clickpaste_five_1, 0},
+    {"_clickpaste_six_1", (DL_FUNC) &_clickpaste_six_1, 0},
+    {"_clickpaste_seven_1", (DL_FUNC) &_clickpaste_seven_1, 0},
+    {"_clickpaste_eight_1", (DL_FUNC) &_clickpaste_eight_1, 0},
+    {"_clickpaste_nine_1", (DL_FUNC) &_clickpaste_nine_1, 0},
+    {"_clickpaste_funtion_1", (DL_FUNC) &_clickpaste_funtion_1, 0},
+    {"_clickpaste_funtion_2", (DL_FUNC) &_clickpaste_funtion_2, 0},
+    {"_clickpaste_funtion_3", (DL_FUNC) &_clickpaste_funtion_3, 0},
+    {"_clickpaste_funtion_4", (DL_FUNC) &_clickpaste_funtion_4, 0},
+    {"_clickpaste_funtion_5", (DL_FUNC) &_clickpaste_funtion_5, 0},
+    {"_clickpaste_funtion_6", (DL_FUNC) &_clickpaste_funtion_6, 0},
+    {"_clickpaste_funtion_7", (DL_FUNC) &_clickpaste_funtion_7, 0},
+    {"_clickpaste_funtion_8", (DL_FUNC) &_clickpaste_funtion_8, 0},
+    {"_clickpaste_funtion_9", (DL_FUNC) &_clickpaste_funtion_9, 0},
+    {"_clickpaste_funtion_10", (DL_FUNC) &_clickpaste_funtion_10, 0},
+    {"_clickpaste_funtion_11", (DL_FUNC) &_clickpaste_funtion_11, 0},
+    {"_clickpaste_funtion_12", (DL_FUNC) &_clickpaste_funtion_12, 0},
+    {"_clickpaste_enter_1", (DL_FUNC) &_clickpaste_enter_1, 0},
+    {"_clickpaste_backspace_1", (DL_FUNC) &_clickpaste_backspace_1, 0},
+    {"_clickpaste_delete_1", (DL_FUNC) &_clickpaste_delete_1, 0},
+    {"_clickpaste_control_a", (DL_FUNC) &_clickpaste_control_a, 0},
+    {"_clickpaste_alter_1", (DL_FUNC) &_clickpaste_alter_1, 0},
+    {"_clickpaste_pageup_1", (DL_FUNC) &_clickpaste_pageup_1, 0},
+    {"_clickpaste_pagedown_1", (DL_FUNC) &_clickpaste_pagedown_1, 0},
+    {"_clickpaste_escape_1", (DL_FUNC) &_clickpaste_escape_1, 0},
+    {"_clickpaste_paste_1", (DL_FUNC) &_clickpaste_paste_1, 0},
+    {"_clickpaste_RightClick", (DL_FUNC) &_clickpaste_RightClick, 2},
+    {"_clickpaste_SingleClick", (DL_FUNC) &_clickpaste_SingleClick, 2},
     {NULL, NULL, 0}
 };
 
